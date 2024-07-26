@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	ssl
+#open	2024-03-31-20-39-36
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	version	cipher	curve	server_name	resumed	last_alert	next_protocol	established	ssl_history	cert_chain_fps	client_cert_chain_fps	sni_matches_cert
+#types	time	string	addr	port	addr	port	string	string	string	string	bool	string	string	bool	string	vector[string]	vector[string]	bool
+1711897776.871933	CYm5UF2xTm4Od5zRf	192.168.0.107	51850	34.120.208.123	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	incoming.telemetry.mozilla.org	T	-	-	T	CsiI	-	-	-
+1711897777.077710	Cui84J2WuuGKA9FZZi	192.168.0.107	58408	34.120.115.102	443	TLSv13	TLS_AES_128_GCM_SHA256	x25519	contile-images.services.mozilla.com	F	-	-	T	CsiI	-	-	-
+1711897777.793223	Czh0dr4z6pOmgTToIj	192.168.0.107	35384	104.154.89.105	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	secp256r1	self-signed.badssl.com	F	-	http/1.1	T	CsxknGIti	faa43dcd57768ea79a7638120b8a70dfdf27da9546a38c4c8123220371627af6	(empty)	T
+1711897778.555717	C7Uyfe4ewbhOsuPGmj	192.168.0.107	35392	104.154.89.105	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	secp256r1	self-signed.badssl.com	F	-	http/1.1	T	CsxknGIti	faa43dcd57768ea79a7638120b8a70dfdf27da9546a38c4c8123220371627af6	(empty)	T
+1711897778.569596	CEfElN2dhQMSZi1jm5	192.168.0.107	35402	104.154.89.105	443	TLSv12	TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	secp256r1	self-signed.badssl.com	F	-	http/1.1	T	CsxknGIti	faa43dcd57768ea79a7638120b8a70dfdf27da9546a38c4c8123220371627af6	(empty)	T
+1711897777.282505	ChuA4q34W5uRE3FZK8	192.168.0.107	53996	34.120.237.76	443	-	-	-	img-getpocket.cdn.mozilla.net	F	-	-	F	C	-	-	-
+1711897776.874422	COpjHa1Lwyul9vZWzj	192.168.0.107	57272	34.149.100.209	443	-	-	-	firefox.settings.services.mozilla.com	F	-	-	F	C	-	-	-
+#close	2024-03-31-20-39-53

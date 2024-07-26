@@ -1,0 +1,16 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	notice
+#open	2024-03-31-19-24-25
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	fuid	file_mime_type	file_desc	proto	note	msg	sub	src	dst	p	n	peer_descr	actions	email_dest	suppress_for	remote_location.country_code	remote_location.region	remote_location.city	remote_location.latitude	remote_location.longitude
+#types	time	string	addr	port	addr	port	string	string	string	enum	enum	string	string	addr	addr	port	count	string	set[enum]	set[string]	interval	string	string	string	double	double
+1427726724.379736	-	-	-	-	-	-	-	-	-	SSH::Password_Guessing	SSH brute force attempt from 192.168.56.1	-	192.168.56.1	-	-	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1427726735.521725	-	-	-	-	-	-	-	-	-	SSH::Password_Guessing	SSH brute force attempt from 192.168.56.1	-	192.168.56.1	-	-	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1427726741.153682	-	-	-	-	-	-	-	-	-	SSH::Password_Guessing	SSH brute force attempt from 192.168.56.1	-	192.168.56.1	-	-	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1427726746.007557	-	-	-	-	-	-	-	-	-	SSH::Password_Guessing	SSH brute force attempt from 192.168.56.1	-	192.168.56.1	-	-	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1427726754.220665	-	-	-	-	-	-	-	-	-	SSH::Password_Guessing	SSH brute force attempt from 192.168.56.1	-	192.168.56.1	-	-	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1427726759.303199	-	-	-	-	-	-	-	-	-	SSH::Password_Guessing	SSH brute force attempt from 192.168.56.1	-	192.168.56.1	-	-	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+1427726759.306612	-	-	-	-	-	-	-	-	-	SSH::Password_Guessing	SSH brute force attempt from 192.168.56.1	-	192.168.56.1	-	-	-	-	Notice::ACTION_LOG	(empty)	3600.000000	-	-	-	-	-
+#close	2024-03-31-19-24-25

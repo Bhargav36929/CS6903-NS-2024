@@ -1,0 +1,11 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	weird
+#open	2024-03-31-20-45-15
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	name	addl	notice	peer	source
+#types	time	string	addr	port	addr	port	string	string	bool	string	string
+1.000000	-	-	-	-	-	truncated_ethernet_frame	-	F	zeek	ETHERNET
+10.569537	Cgpmx320kT7R0Z3k6k	10.0.2.2	11	10.0.2.200	0	bad_ICMP_checksum	-	F	zeek	ICMP
+#close	2024-03-31-20-45-15
